@@ -1,0 +1,21 @@
+Formatted Date,Summary,Precip Type,Temperature (C),Apparent Temperature (C),Humidity,Wind Speed (km/h),Wind Bearing (degrees),Visibility (km),Loud Cover,Pressure (millibars),Daily Summary,City,Station_Id
+2025-12-08 00:00:00,Clear,None,18.2,17.5,0.62,8,150,14.2,0,1012,Clear throughout the day,Bangalore,ST001
+2025-12-08 01:00:00,Clear,None,17.9,17.1,0.64,7,148,14.1,0,1012,Clear throughout the day,Bangalore,ST001
+2025-12-08 02:00:00,Partly Cloudy,None,17.2,16.4,0.67,10,160,13.5,0,1011,Partly cloudy,Bangalore,ST001
+2025-12-08 03:00:00,Partly Cloudy,None,16.8,15.9,0.70,12,165,13.0,0,1010,Partly cloudy,Bangalore,ST001
+2025-12-08 04:00:00,Cloudy,None,16.5,15.6,0.72,14,170,12.8,0,1009,Cloudy early morning,Bangalore,ST001
+2025-12-08 05:00:00,Mist,None,16.1,15.0,0.75,9,175,10.0,0,1009,Misty,Bangalore,ST001
+2025-12-08 06:00:00,Fog,None,15.8,14.7,0.78,6,180,8.1,0,1008,Foggy morning,Bangalore,ST001
+2025-12-08 07:00:00,Clear,None,18.0,17.5,0.65,8,150,14.0,0,1010,Clear,Bangalore,ST001
+2025-12-08 08:00:00,Sunny,None,22.2,21.8,0.55,11,145,15.8,0,1011,Sunny morning,Bangalore,ST001
+2025-12-08 09:00:00,Sunny,None,24.5,24.0,0.52,15,155,16.0,0,1012,Sunny day,Bangalore,ST001
+2025-12-08 10:00:00,Hot,None,28.1,27.7,0.48,18,140,16.1,0,1011,Hot morning,Bangalore,ST001
+2025-12-08 11:00:00,Hot,None,29.4,28.8,0.45,20,145,16.2,0,1010,Hot day,Bangalore,ST001
+2025-12-08 12:00:00,Sunny,None,30.0,29.5,0.44,22,150,16.5,0,1009,Sunny afternoon,Bangalore,ST001
+2025-12-08 13:00:00,Hot,None,31.2,30.5,0.42,25,155,16.7,0,1008,Peak heat,Bangalore,ST001
+2025-12-08 14:00:00,Windy,None,29.1,28.4,0.50,35,160,15.0,0,1007,Windy afternoon,Bangalore,ST001
+2025-12-08 15:00:00,Windy,None,27.4,26.8,0.56,40,170,14.0,0,1007,Wind speeds increasing,Bangalore,ST001
+2025-12-08 16:00:00,Cloudy,None,25.8,25.0,0.61,22,165,13.2,0,1008,Cloudy evening,Bangalore,ST001
+2025-12-08 17:00:00,Drizzle,Rain,22.4,21.5,0.78,18,160,10.0,0,1009,Light drizzle,Bangalore,ST001
+2025-12-08 18:00:00,Rain,Rain,20.1,19.0,0.88,25,165,8.1,0,1008,Rainy evening,Bangalore,ST001
+2025-12-08 19:00:00,Heavy Rain,Rain,18.9,17.2,0.95,45,170,6.0,0,1006,Heavy rain,Bangalore,ST001
