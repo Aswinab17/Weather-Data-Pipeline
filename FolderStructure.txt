@@ -1,0 +1,32 @@
+Weather_Data_Processor/
+│── About the project/
+│   │── about the  project
+│
+├── data/
+│   ├── weather_input/          # Raw incoming CSVs (Daily files + Streaming)
+│   ├── bronze/                 # Raw ingested Parquet data
+│   ├── silver/                 # Cleaned & transformed data
+│   ├── gold/                   # Aggregated outputs for dashboards
+│   └── checkpoint/             # Streaming state & checkpoint logs
+│
+├── src/
+│   ├── spark_utils.py          # Spark session setup (with your Python env fix)
+│   │
+│   ├── ingestion/
+│   │   ├── __init__.py
+│   │   └── ingestion.py        # Batch loading into Bronze
+│   │
+│   ├── processing/
+│   │   ├── __init__.py
+│   │   ├── transformations.py  # Cleaning, casting, enrichment
+│   │   └── aggregations.py     # SQL & groupBy aggregations
+│   │
+│   ├── schemas.py              # Weather schema definition
+│   ├── batch_etl_job.py        # Full ETL: Bronze → Silver → Aggregations
+│   ├── incremental_load_job.py # Incremental new-day ingestion + merge
+│   ├── streaming_job.py        # Real-time processing & Gold outputs
+│   └── __init__.py
+│
+├── main.py                     # Optional orchestrator
+│
+└── requirements.txt            # Dependencies

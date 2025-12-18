@@ -1,0 +1,13 @@
+This project is an end‑to‑end data engineering pipeline designed to process
+historical, incremental, and real-time weather data from multiple stations.
+The pipeline supports analytics, forecasting, and monitoring of extreme weather events.
+
+
+
+Each component of my pipeline is designed as a separate job,
+similar to real data engineering systems:
+                  1.ingestion.py → batch load to Bronze
+                  2.batch_etl_job.py → transformation & analytics → Silver
+                  3.incremental_load_job.py → daily incremental updates
+                  4.streaming_job.py → real-time processing and extreme weather detection
+                  5.This modular design makes the pipeline flexible, reusable, and maintainable.
